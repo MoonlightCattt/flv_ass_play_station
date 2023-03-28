@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="Shortcut Icon" href="./img/head_img.webp" />
+		<title>满舰饰假子直播回放</title>
+		<style type="text/css">
+			.div_vid{
+				width: 300px;
+			    padding: 60px;
+				margin: 0 auto;
+			}
+			.div_copyright {
+				bottom: 0;
+				width: 100%;
+				position: fixed;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div_vid">
+			<p>这就是……我的极限了</p>
+		</div>
+		<div id="div_vid1" class="div_vid">
+			<a href="./pages/video1.html" id="tetle_vid1"></a>
+		</div>
+		<div id="div_vid2" class="div_vid">
+			<a href="./pages/video2.html" id="tetle_vid2"></a>
+		</div>
+		<div id="div_vid3" class="div_vid" >
+			<a href="./pages/video3.html" id="tetle_vid3"></a>
+		</div>
+		<div class="div_copyright">
+			<p>Copyright&copy;早纪雀</p>
+		</div>
+		<script>
+			var the_title = '满舰饰假子直播回放 '
+			var full_time_1=time_trans(86400000);
+			var full_time_2=time_trans(172800000);
+			var full_time_3=time_trans(259200000);
+			document.getElementById("tetle_vid1").innerHTML = the_title + full_time_1;
+			document.getElementById("tetle_vid2").innerHTML = the_title + full_time_2;
+			document.getElementById("tetle_vid3").innerHTML = the_title + full_time_3;
+			function time_trans(timems){
+				var now = new Date();
+				var ms = now.getTime() - timems;
+				var timed = new Date(ms);
+				var year = timed.getFullYear();
+				var month = timed.getMonth() + 1;
+				var date = timed.getDate();
+				var full_time = year * 10000 + month * 100 + date;
+				return full_time;
+			}
+		</script>
+	</body>
+</html>
