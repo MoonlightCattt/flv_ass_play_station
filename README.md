@@ -10,9 +10,11 @@
 
 ### demo
 
-地址：[满舰饰假子直播回放 (zaojique.org)](http://zaojique.org/)
+地址：[满舰饰假子直播回放 (zaojique.org)](http://zaojique.org/)  （已失效）
 
 存在缺点：不能一次性准确地在播放器上显示视频大小，但不影响正常使用。只需点击一下全屏即可解决。
+
+![](https://p.sda1.dev/10/50474977eda4949050c78c5fc0975130/%E6%8D%95%E8%8E%B73.PNG)
 
 ### 安装
 
